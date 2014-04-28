@@ -1,0 +1,179 @@
+/* Import Bootstrap LESS File */
+@import "../assets/bootstrap/css/less/bootstrap.less";
+@import "../assets/bootstrap/css/less/bootswatch.less";
+
+/** Less Variables.
+*****************************************/
+
+/***************************************/
+
+
+/* Result Classes */
+
+.success {
+	color: @brand-success;
+}
+
+.error {
+	color: @brand-danger;
+}
+
+/* END Result Classes */
+
+/* Display/Format Classes */
+
+.ghost {
+	display: none;
+}
+
+/* END Display/Format Classes */
+
+
+/* Override Bootstrap */
+
+a:focus {
+	outline: 0;
+}
+
+/* END Override Bootstrap */
+
+/*----- Template Demo Specific ------*/
+
+	#theme-changer-container {
+		text-transform: capitalize;
+	}
+
+	#js-plugin-checklist .list-group-item {
+		cursor: pointer;		
+	}
+
+	.bs-glyphicons {
+	    list-style: none outside none;
+	    margin-bottom: 20px;
+	    overflow: hidden;
+	    padding-bottom: 1px;
+	    padding-left: 0;
+	}
+	.bs-glyphicons li {
+	    border: 1px solid #DDDDDD;
+	    float: left;
+	    font-size: 12px;
+	    height: 115px;
+	    line-height: 1.4;
+	    margin: 0 -1px -1px 0;
+	    padding: 10px;
+	    text-align: center;
+	    width: 25%;
+	}
+	.bs-glyphicons .glyphicon {
+	    font-size: 24px;
+	    margin-bottom: 10px;
+	    margin-top: 5px;
+	}
+	.bs-glyphicons .glyphicon-class {
+	    display: block;
+	    text-align: center;
+	}
+	.bs-glyphicons li:hover {
+	    background-color: rgba(86, 61, 124, 0.1);
+	}
+	.bs-glyphicons li {
+	    width: 12.5%;
+	}	
+
+	.bs-example {
+	    background-color: #FAFAFA;
+	    border-color: #E5E5E5 #EEEEEE #EEEEEE;
+	    border-style: solid;
+	    border-width: 1px 0;
+	    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05) inset;
+	    margin: 0 -15px 15px;
+	    padding: 45px 15px 15px;
+	    position: relative;
+	}
+	.bs-example:after {
+	    color: #BBBBBB;
+	    content: "Example";
+	    font-size: 12px;
+	    font-weight: bold;
+	    left: 15px;
+	    letter-spacing: 1px;
+	    position: absolute;
+	    text-transform: uppercase;
+	    top: 15px;
+	}
+	.bs-example + .highlight {
+	    border-radius: 0 0 0 0;
+	    border-width: 0 0 1px;
+	    margin: -15px -15px 15px;
+	}
+	.bs-example {
+	    background-color: #FFFFFF;
+	    border-color: #DDDDDD;
+	    border-radius: 4px 4px 0 0;
+	    border-width: 1px;
+	    box-shadow: none;
+	    margin-left: 0;
+	    margin-right: 0;
+	}
+	.bs-example + .highlight {
+	    border-bottom-left-radius: 4px;
+	    border-bottom-right-radius: 4px;
+	    border-width: 1px;
+	    margin-left: 0;
+	    margin-right: 0;
+	    margin-top: -16px;
+	}
+	.bs-example .container {
+	    width: auto;
+	}
+	.bs-example > p:last-child, .bs-example > ul:last-child, .bs-example > ol:last-child, .bs-example > blockquote:last-child, .bs-example > .form-control:last-child, .bs-example > .table:last-child, .bs-example > .navbar:last-child, .bs-example > .jumbotron:last-child, .bs-example > .alert:last-child, .bs-example > .panel:last-child, .bs-example > .list-group:last-child, .bs-example > .well:last-child, .bs-example > .progress:last-child, .bs-example > .table-responsive:last-child > .table {
+	    margin-bottom: 0;
+	}
+	.bs-example > p > .close {
+	    float: none;
+	}
+	.bs-example-type .table .info {
+	    color: #999999;
+	    vertical-align: middle;
+	}
+	.bs-example-type .table td {
+	    border-color: #EEEEEE;
+	    padding: 15px 0;
+	}
+	.bs-example-type .table tr:first-child td {
+	    border-top: 0 none;
+	}
+	.bs-example-type h1, .bs-example-type h2, .bs-example-type h3, .bs-example-type h4, .bs-example-type h5, .bs-example-type h6 {
+	    margin: 0;
+	}
+	.bs-example > .img-circle, .bs-example > .img-rounded, .bs-example > .img-thumbnail {
+	    margin: 5px;
+	}
+	.bs-example > .table-responsive > .table {
+	    background-color: #FFFFFF;
+	}
+	.bs-example > .btn, .bs-example > .btn-group {
+	    margin-bottom: 5px;
+	    margin-top: 5px;
+	}
+	.bs-example > .btn-toolbar + .btn-toolbar {
+	    margin-top: 10px;
+	}
+	.bs-example-control-sizing select, .bs-example-control-sizing input[type="text"] + input[type="text"] {
+	    margin-top: 10px;
+	}
+	.bs-example-form .input-group {
+	    margin-bottom: 10px;
+	}
+	.bs-example > textarea.form-control {
+	    resize: vertical;
+	}
+	.bs-example > .list-group {
+	    max-width: 400px;
+	}
+	.bs-example .navbar:last-child {
+	    margin-bottom: 0;
+	}
+
+/*----------------------------------*/
