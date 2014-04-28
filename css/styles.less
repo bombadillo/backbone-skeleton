@@ -25,7 +25,20 @@
 .ghost {
 	display: none;
 }
+.click {
+    cursor: pointer;
+}
+.sep {
+    margin: 30px 0;
+}
 
+.sep-top {
+    margin-top: 30px;
+}
+
+.sep-bottom {
+    margin-bottom: 30px;
+}
 /* END Display/Format Classes */
 
 
@@ -39,6 +52,12 @@ a:focus {
 
 /*----- Template Demo Specific ------*/
 
+	body {
+		background-image: url('/img/bg.svg');
+		background-attachment: fixed;
+		background-size: 100%;		
+	}
+	
 	#theme-changer-container {
 		text-transform: capitalize;
 	}
@@ -175,5 +194,13 @@ a:focus {
 	.bs-example .navbar:last-child {
 	    margin-bottom: 0;
 	}
+
+	.main {
+		background-color: #fff;
+	}
+
+	.container .jumbotron {
+		border-radius: 0px;
+	}	
 
 /*----------------------------------*/

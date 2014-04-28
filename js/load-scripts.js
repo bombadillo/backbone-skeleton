@@ -15,14 +15,8 @@ head.ready(document, function ()
         // Models.
         '/js/models/global-models.js', 'js/models/home-models.js',
         // Controllers.
-        'js/controllers/home-controller.js',
-        // Views. 
-        
-        /*----- Template Demo Specific ------*/
-
-          'js/views/theme-changer-view.js'
-
-        /*----------------------------------*/
+        'js/controllers/home-controller.js'
+        // Views.    
     ];
 
     // Function loads each script in the array and calls the anonymous function on completion.
