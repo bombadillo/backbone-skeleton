@@ -485,6 +485,18 @@ var app =
         // END if console.log.
     },
 
+    /**
+     * Name       requestErrorHandler
+     * Purpose    To handle error responses from Backbone fetches.
+     * @param  {JavaScrpt XHR object} response The XHR object from the request response.
+     */
+    requestErrorHandler: function (response)
+    {
+        this.log("There was a server error.", 'error')
+        console.log(response);
+        this.log("---------------------------", 'error')
+    },        
+
     /*  Name      displayTooltip
      *  Purpose   To display a tooltip for a certain element.
      *  @params   {jQuery object}   el       The element to have the tooltip added to.
